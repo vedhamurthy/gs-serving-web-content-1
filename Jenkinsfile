@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'gradle clean compileJava'
+                sh 'gradle  compileJava'
             }
         }
         stage('Unit-tests') {
