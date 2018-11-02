@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Checkout') {
           steps {
-            git 'https://github.com/effectivejenkins/gs-serving-web-content.git'
+            git 'https://github.com/vedhamurthy/gs-serving-web-content-1.git'
           }
         }
         stage('Build') {
